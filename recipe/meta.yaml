@@ -23,10 +23,11 @@ requirements:
     - pip
   run:
     - python >=3.9
+    - cachey
+    - cartopy
     - cf_xarray
     - matplotlib-base
     - pillow
-    - pykdtree
     - rioxarray >=0.12.2
     - xarray
     - xpublish <0.4.0,>=0.3.0
