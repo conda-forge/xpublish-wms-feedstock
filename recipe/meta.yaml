@@ -1,5 +1,5 @@
 {% set name = "xpublish-wms" %}
-{% set version = "0.1.dev73" %}
+{% set version = "0.1.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/xpublish_wms-{{ version }}.tar.gz
-  sha256: f1ce409e52469b10ba7fddfe6cc330cbb7875e86e796c8edd20ef8600b852346
+  sha256: 1eaef732371a5a84b7d9067f90df3077b6cfac4a15ec16ec2ae15304796108ac
 
 build:
   noarch: python
@@ -23,6 +23,7 @@ requirements:
     - pip
   run:
     - python >=3.9
+    - cartopy
     - cf_xarray
     - matplotlib-base
     - pillow
