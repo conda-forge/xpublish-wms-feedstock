@@ -31,6 +31,7 @@ requirements:
     - rioxarray >=0.12.2
     - xarray
     - xpublish <0.4.0,>=0.3.0
+    - datashader
 
 test:
   imports:
