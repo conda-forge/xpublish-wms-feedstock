@@ -1,5 +1,5 @@
 {% set name = "xpublish-wms" %}
-{% set version = "0.3.0" %}
+{% set version = "0.5.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/xpublish_wms-{{ version }}.tar.gz
-  sha256: 6c4aaa6bf8e89a166b48c721599fbe815b7582ed67aee3c91835ab951b6e954f
+  sha256: 5688eb1e1f03408fc63e5fad58ff06984b75b5e54d39752c6b430f5916a60383
 
 build:
   noarch: python
@@ -16,7 +16,7 @@ build:
 
 requirements:
   host:
-    - python >=3.9
+    - python >=3.9,<3.12
     - setuptools >=61
     - wheel
     - setuptools-scm >=6.2
@@ -29,6 +29,7 @@ requirements:
     - pillow
     - pykdtree
     - rioxarray >=0.12.2
+    - scikit-learn
     - xarray
     - xpublish <0.4.0,>=0.3.0
     - datashader
