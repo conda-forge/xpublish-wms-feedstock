@@ -25,6 +25,7 @@ requirements:
     - python >=3.9
     - cartopy
     - cf_xarray
+    - mercantile
     - matplotlib-base
     - pillow
     - pykdtree
