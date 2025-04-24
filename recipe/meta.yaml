@@ -30,7 +30,7 @@ requirements:
     - pillow
     - pykdtree
     - xarray
-    - xpublish <0.4.0,>=0.3.0
+    - xpublish>=0.4.0
     - datashader
 
 test:
