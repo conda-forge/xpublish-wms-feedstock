@@ -146,6 +146,3 @@ Feedstock Maintainers
 * [@abkfenris](https://github.com/abkfenris/)
 * [@mpiannucci](https://github.com/mpiannucci/)
 
-
-<!-- dummy commit to enable rerendering -->
-
