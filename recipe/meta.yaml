@@ -1,5 +1,5 @@
 {% set name = "xpublish-wms" %}
-{% set version = "0.13.1" %}
+{% set version = "0.13.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/xpublish_wms-{{ version }}.tar.gz
-  sha256: cf7822c0d208d7a545a2de5753bcaa47d2fc8220781f1755ec1b3747043bfc7e
+  sha256: a52cdc1083b364c5da69a5e58b6dfec967b8f9b5ac877386fb6e3db735cafd92
 
 build:
   noarch: python
